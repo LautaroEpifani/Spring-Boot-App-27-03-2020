@@ -21,7 +21,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity 
-public class User implements Serializable{ //Anotacion para subir al github.
+public class User implements Serializable{ //Anotacion 4
 
 	/**
 	 * 
