@@ -20,7 +20,7 @@ public class Role implements Serializable{
 
 	
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO, generator="native")
+	@GeneratedValue(strategy= GenerationType.AUTO, generator="native") //native para usar el autoincremento de mysql.
 	@GenericGenerator(name="native",strategy="native")
 	private Long id;
 	
